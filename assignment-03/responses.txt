@@ -1,0 +1,4 @@
+Youtube (www.youtube.com); KING5 News (www.king5.com); Pinterest (www.pinterest.com)
+IP address is given to a computer so that a network is able to identify your computer, think of an IP address as your home address where all your packages and mail gets sent to, but in this case your information and search results get sent to your computer. The DNS links the IP address of the network your computer is on with your domain name.
+A cookie is data stored on your computer by the website browser while you are on a website. Basically, cookies are the messages that website servers give to your website browser when you visit different websites.
+1) Protocol 2) Domain name 3) Path 
