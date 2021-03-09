@@ -2,4 +2,4 @@
 
 2) I am excited to learn more about styling because it was one of my favorite parts so far. I think its fun to create backround colors, bold tables and text and see a simple webpage come together in something thats fun to look at.
 
-3) For this week, my biggest challenge was creating the <nav> from site to site. It's tricky to know if you're doing it right before uploading to your repository. To get help and create my <nav> I watched the weekly video and went to the class website which helped greatly. 
+3) For this week, my biggest challenge was creating the navigation from site to site. It's tricky to know if you're doing it right before uploading to your repository. To get help and create my navigation I watched the weekly video and went to the class website which helped greatly. 
