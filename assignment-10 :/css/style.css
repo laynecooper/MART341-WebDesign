@@ -1,0 +1,44 @@
+body {
+
+    font-family: Arial;
+
+  }
+
+  }
+
+.main-container {
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+
+    padding: 10px;
+
+/* Here I am coloring the background light blue, so it makes the page pop. I am making the width 75% so the background covers most of the page. */
+    background-color: lightblue;
+    opacity: 0.5;
+    width: 75%;
+    margin: auto;
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+
+    margin: auto;
+    width:50%;
+    padding: 50px;
+    border-bottom: 1px grey;
+    border-spacing: inherit;
+}
+
+#mainheader{
+    position: relative;
+    left: 30px;
+    top:10px;
+    color: purple;
+    opacity: .75;
+    font-size: 50px;
+}
