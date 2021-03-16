@@ -7,7 +7,7 @@ body {
 .main-container {
 
     border-style: solid;
-    border-width: 10px;
+    border-width: 25px;
     border-color: brown;
 
     padding: 10px;
@@ -26,9 +26,9 @@ div.align{
 .secondary-container{
 
     margin: auto;
-    width:50%;
+    width:40%;
     padding: 50px;
-    border-bottom: 1px grey;
+    border-bottom: 3px grey;
     border-spacing: inherit;
 }
 
