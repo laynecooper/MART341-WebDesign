@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    }
+}
 
 
 .main-container {
@@ -13,7 +13,7 @@ body {
 
 /* Here I am coloring the background light blue, so it makes the page pop. I am making the width 75% so the background covers most of the page. */
     background-color: lightblue;
-    opacity: 0.2;
+    opacity: 0.7;
     width: 80%;
     margin: auto;
 }
