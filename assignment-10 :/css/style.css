@@ -28,6 +28,7 @@ div.align{
     padding: 50px;
     border-bottom: 3px grey;
     border-spacing: inherit;
+    border-bottom: 3px solid grey;
 }
 
 #mainheader{
