@@ -1,0 +1,120 @@
+div{
+    text-align: left;
+    line-height: 2em;
+    font-family: Merriweather, sans-serif;
+    margin-bottom: 9px;
+    padding: 10px;
+}
+h1, h3, h5{
+    text-align: center;
+    font-family: FiraSans, sans-serif;
+
+}
+.opening-paragraph{
+    color: grey;
+    font-size: 17px;
+    text-indent: 5px;
+    font-weight:700;
+}
+
+.opening-paragraph::first-line{
+    font-size: 25px;
+}
+.second-paragraph{
+    font-size: 15px;
+}
+
+#book_info{
+    text-decoration: none;
+    font-family: Merriweather, sans-serif;
+}
+#book_info:hover{
+    font-family:  Merriweather, sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+table{
+    border: 3px solid green;
+    font-family:  FiraSans, sans-serif;
+    font-weight: 600;
+    padding: 15px;
+}
+
+p{
+    font-family:  Merriweather, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: light green;
+    font-family: Merriweather;
+    text-transform: uppercase;
+    margin-top: 125;
+    height: 10em;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: auto;
+    min-width: 98px;
+    text-align: center;
+    background-color: none;
+    padding: 2em;
+}
+
+.menu-item a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: silver;
+
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    border: 1px solid teal;
+    margin: 0.5em 0 0 -1em;
+    color: blue;
+    background-color: silver;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: grey;
+    background-color: teal;
+}
+
+.mainimage{
+    float:left;
+}
+
+.mainimage{
+    float:right;
+}
