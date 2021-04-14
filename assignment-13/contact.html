@@ -1,78 +1,91 @@
 <html>
 <head>
-    <title>Contact us</title>
+    <title>About us</title>
     <meta charset="UTF-8">
-    <meta name="description" content="assignment-13">
+    <meta name="description" content="About us">
     <meta name="author" content="Layne Cooper">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  <link rel="stylesheet" text="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-    <header class="">
-        <div class="menu-item">
-            <a href="index.html">Home</a>
-        </div>
-        <div class="menu-item">
-            <a href="about.html">About</a>
-        </div>
-        <div class="menu-item">
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="menu-item dropdown">
-            <a href="services.html">Services</a>
-            <div class="dropdown-content">
-                <div class="dropdown-item">
-                    <a href="https://www.hitchcockrestaurant.com/group" target="_new">Hitchcock</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="http://madronaseattle.com/wp-content/uploads/2013/10/marche-seattle.jpg" target="_new">Marche</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="https://seattle.eater.com/2016/5/5/11599466/asadero-sinaloa-mexican-steakhouse-opening-in-ballard" target="_new">Asadero</a>
-                </div>
-            </div>
-        </div>
-        <div class="site-name">
-        </div>
-            </header>
-            <h1>Contact Us</h1>
-            <h3>&nbsp;</h3>
-            <h5>&nbsp;</h5>
-            <section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+           <a class="nav-link" href="index.html">Home</a>
+           <a class="nav-link" href="about.html">About Us</a>
+           <a class="nav-link" href="contact.html">Contact Us</a>
+      <a class="nav-link" href="art.html">Art</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                  <ul class="navbar-nav">
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="services.html" id="navbarDarkDropdownMenuLink"
+                                              role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                <div class="fourthimage">
-                    <img alt="Cafe Munir">
-                </div>
-                <div class="contactus">
-                    <div class="row">
-                        <div class="col-12">
-                            <label>Name</label>
-                            <input type="text" id="name" name="name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <label>Email</label>
+Resources
+</a>
+<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+          <li><a class="dropdown-item" href="https://www.hitchcockrestaurant.com/group" target="_new">Hitchcock</a>
+          <li><a class="dropdown-item" href="http://madronaseattle.com/wp-content/uploads/2013/10/marche-seattle.jpg" target="_new">Marche</a>
+          <li><a class="dropdown-item" href="https://seattle.eater.com/2016/5/5/11599466/asadero-sinaloa-mexican-steakhouse-opening-in-ballard" target="_new">Asaderos</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+      <h1>Contact Us</h1>
+      <h3>&nbsp;</h3>
+     <h5>&nbsp;</h5>
+     <section>
 
-                            <input type="text" id="phone number" name="phone number">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <label class="textareacomments">New Recomendations!</label>
-                            <br>
+                <div class="p-4">
+                    <img src="images/image2.png" class="img-fluid rounded" alt="image2">
+                </div>
+              </section>
+
+              <form class="row g-3 needs-validation">
+       <div class="container-fluid p-4">
+           <div class="row align-items-center">
+               <div class="sm">
+                   <label>Name</label>
+               </div>
+               <div class="sm">
+                   <input class="form-control-sm" required type="text" id="name" name="name">
+               </div>
+           </div>
+           <div class="row align-items-center">
+               <div class="sm">
+                   <label>Email</label>
+               </div>
+               <div class="sm">
+                   <input class="fform-control-sm" required type="text" id="e-mail" name="e-mail">
+               </div>
+           </div>
+
+           <div class="row align-items-center">
+               <div class="sm">
+
+                            <label class="textareacomments" required>reccomendations</label>
+                          </div>
                             <textarea cols="30%" rows="20%"></textarea>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row align-items-center mt-3">
+                        <div class="sm">
                             <input type="submit" id="btn-submit" name="btn-submit">
                         </div>
                     </div>
                 </div>
-            </section>
+            </form>
+
+            <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
         </body>
 
         </html>
