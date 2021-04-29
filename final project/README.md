@@ -1,0 +1,5 @@
+1) I had never used GitHub or repositories before this class and I am thankful that I learned both of those skills because seeing what goes behind creating a website or webpage is incredible. I want to continue to practice all the skills taught in this class because I found them not only educational, but fun.
+
+2) I never used any coding before so learning about CSS was all new to me. I think it was really rewarding to learn about the different colors you can use, how to create your own art on your webpage and how much goes into putting a font on your page. Every time I go online now to different websites I am always wondering who made the web page and how much work went into figuring out the colors and the fonts used.
+
+3) My biggest challenges in this class were learning about bootstrap last week and then also the assignment on week 8. What helped me overcome those challenges is definetley the weekly check ins. Being able to ask questions openly and having Professor Cassens respond quickly was so so helpful. I also thought that the MART 341 website was a huge help becauase I could refer back to past weeks and refresh my memory. 

@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+.textareacomments{
+    padding-bottom: 300px;
+}
+body{
+    background-color: silver;
+}
+div{
+    text-align: left;
+    line-height: 1.45em;
+    font-family: Merriweather, sans-serif;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+h1, h3, h5{
+    text-align: center;
+    font-family: FiraSans, sans-serif;
+
+}
+.opening-paragraph{
+    color: grey;
+    font-size: 5px;
+    text-indent: 5px;
+    font-weight:700;
+}
+
+.opening-paragraph::first-line{
+    font-size: 5px;
+}
+.second-paragraph{
+    font-size: 2-px;
+}
+
+table{
+    border: 1px solid red;
+    font-family:  FiraSans, sans-serif;
+    font-weight: 700;
+    padding: 15px;
+}
+
+
+p{
+    font-family:  Merriweather, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: beige;
+    font-family: Merriweather;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: left;
+}
+
+
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: beige;
+    padding: 0.5em 1em;
+}
+
+
+.menu-item a {
+    color: silver;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: green;
+
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: red;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: golden rod;
+}
+
+.mainimage{
+    float: left;
+    content:url("../images/image1-small.png");
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .mainimage{
+        content:url("../images/image1.png");
+    }
+}
+
+.secondimage{
+    float:right;
+    content:url("../images/image2-small.png");
+}
+
+
+@media only screen and (min-width: 600px) {
+    .secondimage{
+        float:right;
+        content:url("../images/image2.png");
+    }
+}
+
+.thirdimage{
+    margin: auto;
+    content:url("../images/image3-small.png");
+}
+
+
+@media only screen and (min-width: 600px) {
+    .thirdimage{
+        margin: auto;
+        content:url("../images/image3.png");
+    }
+}
+
+.fourthimage{
+    margin:auto;
+    content:url("../images/image4-small.png");
+}
+
+
+@media only screen and (min-width: 600px) {
+    .fourthimage{
+        margin: auto;
+        content:url("../images/image4.png");
+    }
+}
+
+.fifthimage{
+    margin:auto;
+    content:url("../images/image2-small.png");
+}
+
+@media only screen and (min-width: 600px) {
+    .fifthimage{
+        margin: auto;
+        content:url("../images/image2.png");
+    }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.contactus{
+    width:50%;
+    margin-left: 25%;
+
+}
